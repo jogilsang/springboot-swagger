@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!--타임리프 템플릿임을 가르킴-->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Test1</title>
+</head>
+<body>
+<p>ID : <span th:text="${id}"></span></p>
+<p>NAME : <span th:text="${name}"></span></p>
+<p>NICKNAME : <span th:text="${nickname}"></span></p>
+<p>
+    PHOTO : <br>
+    <img th:src="${photo}">
+</p>
+</body>
+</html>
