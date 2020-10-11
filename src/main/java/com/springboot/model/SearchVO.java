@@ -1,8 +1,18 @@
 package com.springboot.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+@ApiModel
 public class SearchVO {
+
+    @ApiModelProperty(value="아이디")
     private String id;
+
+    @ApiModelProperty(value="이메일")
     private String email;
+
+    @ApiModelProperty(value="페이지")
     private int page;
 
     public String getId() {
